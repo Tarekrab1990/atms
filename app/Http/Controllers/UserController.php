@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\logs;
+use App\User;
 use Illuminate\Http\Request;
 
-class LogsController extends Controller
+class UserController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -41,10 +41,10 @@ class LogsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\logs  $logs
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function show(logs $logs)
+    public function show(User $user)
     {
         //
     }
@@ -52,10 +52,10 @@ class LogsController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\logs  $logs
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function edit(logs $logs)
+    public function edit(User $user)
     {
         //
     }
@@ -64,10 +64,10 @@ class LogsController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\logs  $logs
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, logs $logs)
+    public function update(Request $request, User $user)
     {
         //
     }
@@ -75,10 +75,10 @@ class LogsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\logs  $logs
+     * @param  \App\User  $user
      * @return \Illuminate\Http\Response
      */
-    public function destroy(logs $logs)
+    public function destroy(User $user)
     {
         //
     }
